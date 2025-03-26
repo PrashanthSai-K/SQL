@@ -8,7 +8,7 @@
 
 ###  🛠️ TechStack :
 
-- SQL (Structured Query Language))
+- SQL (Structured Query Language)
 - Relational Database Management System (MYSQL)
 - SQL Aggregate Functions (`COUNT()`, `SUM()`, `AVG()`)
 - Grouping with `GROUP BY`
