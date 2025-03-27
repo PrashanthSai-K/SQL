@@ -77,7 +77,7 @@ FROM `customer`
 WHERE EXISTS 
 	( SELECT 1 
      FROM `order`
-     WHERE `order`.`customer_id` = `customer`.id -- correlated due to the use of main query column
+     WHERE `order`.`customer_id` =  `customer`.id -- correlated due to the use of main query column
      )
 ;
 
