@@ -53,7 +53,7 @@ JOIN `department` ON `employee`.`WORKDEPT` = `department`.`DEPTNO`
 ### 2️⃣ Usage of `PARTITION BY` and `OVER`
 
 - `PARTITION BY` clause is used to group windows based on the column specifed 
-- `OVER` clause is used to order the rows in the window specifed
+- `OVER` clause is used to specify the window and `ORDER BY` clause is used to order based on the column provided
 
 ```
 SELECT 
